@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/admin"
+    tools:context=".AddUser">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/lodin"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/userNameTextView"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginStart="25dp"
+        android:text="User Name"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/userNameEditText"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginEnd="50dp"
+        android:hint="Enter User Name"
+        android:paddingLeft="5dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:background="@drawable/lround"
+        android:drawableLeft="@drawable/ic_person_add_black_24dp"
+        android:drawablePadding="5dp"/>
+
+    <TextView
+        android:id="@+id/passwordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:layout_marginStart="25dp"
+        android:textSize="18dp"
+        android:text="Password"
+        android:textColor="#ffff"/>
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="305dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="50dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/lround"
+        android:hint="Enter Password"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:drawablePadding="5dp"
+        />
+
+    <TextView
+        android:id="@+id/emailIDTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="383dp"
+        android:layout_marginStart="25dp"
+        android:textSize="18dp"
+        android:text="Email ID"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="377dp"
+        android:layout_marginEnd="50dp"
+        android:hint="Enter Email"
+        android:layout_marginStart="150dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/lround"
+        android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+        android:drawablePadding="5dp"/>
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="290dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="485dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:textSize="20dp"
+        android:background="@drawable/aduserround"
+        android:text="Add User"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
+
+
+

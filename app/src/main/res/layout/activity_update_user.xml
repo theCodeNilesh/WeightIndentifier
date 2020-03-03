@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateUser"
+    android:background="@drawable/admin">
+
+    <TextView
+        android:id="@+id/email_id_tv"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginStart="25dp"
+        android:text="Email ID"
+        android:textColor="#ffff"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/email_id_EditText"
+        android:layout_width="290dp"
+        android:layout_height="35dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="235dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="50dp"
+        android:text=""
+        android:hint="Enter Email ID"
+        android:background="@drawable/auround"
+        android:paddingLeft="5dp"
+        android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+        android:drawablePadding="5dp"/>
+
+    <Button
+        android:id="@+id/add_emailID_Button"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:text="Add Email ID"
+        android:background="@drawable/aduserround"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/vehicle_name_TextView"
+        android:layout_width="90dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginStart="25dp"
+        android:visibility="visible"
+        android:text="Vehicle Name"
+        android:textColor="#fff"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/vehicle_name_EditText"
+        android:layout_width="290dp"
+        android:layout_height="35dp"
+        android:inputType="text"
+        android:layout_marginTop="435dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="50dp"
+        android:text=""
+        android:visibility="visible"
+        android:hint="Enter Vehicle Name"
+        android:background="@drawable/auround"
+        android:paddingLeft="5dp"
+        android:drawableLeft="@drawable/ic_directions_bus_black_24dp"
+        android:drawablePadding="5dp"/>
+
+    <Button
+        android:id="@+id/updateUser_Btn"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/aduserround"
+        android:text="Update User"
+        android:textSize="18dp"
+        android:visibility="visible" />
+
+</RelativeLayout>

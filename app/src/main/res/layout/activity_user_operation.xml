@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/admin">
+
+    <Button
+        android:id="@+id/addUserButton"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="165dp"
+        android:text="Add User"
+        android:background="@drawable/auoround"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp"/>
+    <Button
+        android:id="@+id/deleteUserButton"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:gravity="center"
+        android:text="Delete User"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/auoround"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/updateUserButton"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:text="Update User"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/auoround"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/reportGenerationButton"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:text="Report Generation"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/auoround"
+        android:textSize="18dp"/>
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportGeneration"
+    android:background="@drawable/admin">
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/ic_insert_chart_black_24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+
+    <TextView
+        android:id="@+id/userNameTV"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="25dp"
+        android:text="User Name"
+        android:textColor="#ffff"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/user_Name_TV"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginStart="25dp"
+        android:hint="User Name"
+        android:textColor="#ffff"
+        android:background="@drawable/aarround"
+        android:textSize="18dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="3dp"/>
+
+    <TextView
+        android:id="@+id/vehicleNoTV"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="25dp"
+        android:text="Vehicle Number"
+        android:textColor="#ffff"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/vehicle_No_TV"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginStart="25dp"
+        android:hint="Vehicle Number"
+        android:textColor="#ffff"
+        android:background="@drawable/aarround"
+        android:textSize="18dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="3dp"/>
+
+    <TextView
+        android:id="@+id/vehicleWeightTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:layout_marginStart="25dp"
+        android:text="Vehicle Weight"
+        android:textColor="#ffff"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/vehicle_Weight_TV"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginStart="26dp"
+        android:hint="Vehicle Weight"
+        android:textColor="#ffff"
+        android:background="@drawable/aarround"
+        android:textSize="18dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="3dp"/>
+
+    <TextView
+        android:id="@+id/statusTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_marginStart="25dp"
+        android:text="Status"
+        android:textColor="#ffff"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/status_TV"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginStart="25dp"
+        android:hint="Status"
+        android:background="@drawable/aarround"
+        android:textSize="18dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="3dp"/>
+
+</RelativeLayout>
+
